@@ -19,4 +19,6 @@ public class Helper {
     public boolean elementExistByList (WebDriver driver, By by){
         return driver.findElements(by).size() > 0;
     }
+
+    public String findPath (String)
 }
