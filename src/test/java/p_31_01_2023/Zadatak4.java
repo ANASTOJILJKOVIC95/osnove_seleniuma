@@ -20,7 +20,7 @@ public class Zadatak4 {public static void main(String[] args) throws Interrupted
     driver.get("https://cms.demo.katalon.com/");
     driver.manage().window().maximize();
     try {new Helper().
-                takeScreenshot(driver, "screenshots/schreenshots1");
+                takeScreenshot(driver, "screenshots/schreenshots1.jpg");
     }catch (IOException e){
         e.printStackTrace();
     }
